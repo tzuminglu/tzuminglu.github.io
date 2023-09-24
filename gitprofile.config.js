@@ -37,7 +37,7 @@ const config = {
     "Redis",
     'Git',
     'Docker',
-    'Kubernetes',,
+    'Kubernetes', ,
     'Tailwind CSS',
     "Bootstrap"
   ],
@@ -56,7 +56,7 @@ const config = {
       body: 'Completion in Operating Systems & Design and Analysis of Algorithms',
       year: 'February 2022 to June 2022',
     },
-  ], 
+  ],
   education: [
     {
       institution: 'Stevens Institution of Technology',
@@ -81,18 +81,18 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Chung Hwa Post Co. Ltd.\n Big Data Competition',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Applying Random Forest Classifier and Association rule to classify the most relevant postal area in a certain period \n',
+      imageUrl: 'https://files.bountyhunter.co/contest/public/201902/bcc10ca4-872b-4c80-9363-85957ac6f60f.png',
+      link: ""
     },
     {
-      title: 'Project Name',
+      title: 'Advanced Data Science with R: Term Project',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Implement XGBoost for patient readmission classification and prediction',
+      imageUrl: 'https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png',
+      link: "https://www.kaggle.com/competitions/108dawithr/overview"
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
