@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ["tzuming_resume "], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -38,7 +38,7 @@ const config = {
     'Git',
     'Docker',
     'Kubernetes',,
-    'Tailwind',
+    'Tailwind CSS',
     "Bootstrap"
   ],
   experiences: [
@@ -170,11 +170,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made by Tzu Ming Lu / Template Based on arifszn &copy;`,
 };
 
 export default config;

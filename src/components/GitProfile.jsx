@@ -217,13 +217,13 @@ const GitProfile = ({ config }) => {
                   </div>
                 </div>
               </div>
-              {/* <footer
+              <footer
                 className={`p-4 footer ${bgColor} text-base-content footer-center`}
               >
                 <div className="card compact bg-base-100 shadow">
                   <Footer content={sanitizedConfig.footer} loading={loading} />
                 </div>
-              </footer> */}
+              </footer>
             </Fragment>
           )
         )}
